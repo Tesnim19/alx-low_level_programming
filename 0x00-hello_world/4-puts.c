@@ -6,5 +6,5 @@ int main(void)
 
 	puts(Mystr[]);
 
-	return(0);
+	return (0);
 }
