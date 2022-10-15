@@ -10,13 +10,15 @@
 int main(void)
 {
 	char c;
+	int i;
 
-	for (int i = 97; i <= 122; i++)
+	for (i = 97; i <= 122; i++)
 	{
 		c = (char)i;
 		putchar(c);
 	}
-	putchar("\n");
+	c = "\n";
+	putchar(c);
 	return (0);
 }
 
