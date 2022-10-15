@@ -12,12 +12,16 @@ int main(void)
 	char c;
 	int i;
 
-	for (i = 97; i <= 122; i++)
+	for (i = 97; i <= 123; i++)
 	{
+		if (i == 123)
+		{
+			putchar("\n");
+			break;
+		}
 		c = (char)i;
 		putchar(c);
 	}
-	putchar("%s\n", c);
 	return (0);
 }
 
