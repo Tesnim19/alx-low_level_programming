@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (i == 123)
 		{
-			putchar("\n");
+			putchar('\n');
 			break;
 		}
 		c = (char)i;
