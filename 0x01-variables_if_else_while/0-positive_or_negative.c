@@ -6,7 +6,10 @@
  * main - Entry point
  * Description checks if random numbers
  * are negative positbe or zero
- * Return -Always 0 (Success)
+ * Return value for function main -Always
+ * return value of 'main' is 0 if pass (Success)
+ *
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
@@ -15,7 +18,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-		printf("%d is 0\n", n);
+		printf("%d is zero\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else
