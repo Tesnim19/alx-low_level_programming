@@ -12,7 +12,7 @@ int main(void)
 	char c;
 	int i;
 
-	for (i = 122; i <= 98; i--)
+	for (i = 122; i <= 98; --i)
 	{
 		if (i == 98)
 		{
