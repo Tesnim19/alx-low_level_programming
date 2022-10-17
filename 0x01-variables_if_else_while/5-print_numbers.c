@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * print all 1 digit number
- *
- * Return - Always 0 if sucessfule
- *
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,7 +11,7 @@ int main(void)
 
 	while (n <= 9)
 	{
-		printf(n);
+		printf("%d", n);
 		n++;
 	}
 	printf('\n');
