@@ -18,8 +18,11 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				putchar(44);
-				putchar(' ');
+				if ( i != 56)
+				{
+					putchar(44);
+					putchar(' ');
+				}
 			}
 		}
 	}
