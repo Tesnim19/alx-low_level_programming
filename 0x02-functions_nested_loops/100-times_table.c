@@ -17,25 +17,26 @@ void print_times_table(int n)
 			if (n < 0 || n > 15)
 			{
 				break;
-			k = i * j;
-			if (j == 0)
-			{
-				printf("%d", k);
+				k = i * j;
+				if (j == 0)
+				{
+					printf("%d", k);
+				}
+				if (k < 10 && j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					printf("%d", k);
+				}
+				else if (k >= 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+					printf("%d", k);
+				}
 			}
-			if (k < 10 && j != 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				printf("%d", k);
-			}
-			else if (k >= 10)
-			{
-				_putchar(',');
-				_putchar(' ');
-				printf("%d", k);
-			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
