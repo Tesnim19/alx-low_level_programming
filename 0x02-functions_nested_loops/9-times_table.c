@@ -17,6 +17,9 @@ void times_table(void)
 			if (k == 0)
 			{
 				_putchar(k +'0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
 			else if (k >= 10)
 			{
@@ -28,6 +31,7 @@ void times_table(void)
 			else
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 				_putchar('0' + k);
 			}
