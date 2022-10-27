@@ -16,17 +16,13 @@ void puts_half(char *str)
 			break;
 		i++;
 	}
-	j = i;
 	if (i % 2 == 1)
 	{
-		i = (i) / 2;
+		j = (i) / 2;
 	}
 	else
-		i = (i - 1) / 2;
-	while (i < j)
-	{
-		_putchar(str[i]);
-		i++;
-	}
+		j = (i - 1) / 2;
+	for (j++; j < i; j++)
+		_putchar(str[j]);
 	_putchar('\n');
 }
