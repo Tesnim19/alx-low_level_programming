@@ -17,12 +17,12 @@ void puts_half(char *str)
 		i++;
 	}
 	j = i;
-	if (i % 2 == 0)
+	if (i % 2 == 1)
 	{
-		i = (i - 1) / 2;
+		i = (i) / 2;
 	}
 	else
-		i = i / 2;
+		i = (i - 1) / 2;
 	while (i < j)
 	{
 		_putchar(str[i]);
