@@ -18,8 +18,10 @@ void puts2(char *str)
 			break;
 		}
 		if (i % 2 == 0)
+		{
 			i++;
 			continue;
+		}
 		_putchar(str[i]);
 		i++;
 	}
