@@ -2,6 +2,10 @@
 #define MAIN_H
 
 #include <stdio.h>
-int main(int argc, char *argv[]);
+#include <stdlib.h>
+
+#include <ctype.h>
+
+#include <string.h>
 
 #endif
