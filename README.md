@@ -1,1 +1,1 @@
-This folder contains practices for basics of low-level programming language
+# 0x1C. C - Makefiles
